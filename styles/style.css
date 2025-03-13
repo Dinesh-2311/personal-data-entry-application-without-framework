@@ -1,0 +1,48 @@
+/* Set font for headings (h1, h2) to Times New Roman */
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1bb958;
+}
+
+/* Set font for the rest of the body to Arial, sans-serif */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+/* Input field styling */
+input[type="text"], input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header and cell styling */
+th, td {
+    border: 1px solid #85afee;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Table header background color */
+th {
+    background-color: #a1a1cd;
+}
