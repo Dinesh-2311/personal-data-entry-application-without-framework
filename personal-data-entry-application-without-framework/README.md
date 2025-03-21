@@ -78,6 +78,7 @@ Start the server: python server.py
 
 **Open your browser and navigate to:**
 http://localhost:8000
+
 ![image](https://github.com/user-attachments/assets/f1358944-1a35-4af8-b9cc-ba389db842b6)
 
 Use the form to enter personal data. The data will be saved in the database and displayed in the table below the form.
