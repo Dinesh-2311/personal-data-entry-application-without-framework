@@ -95,6 +95,7 @@ Use the form to enter personal data. The data will be saved in the database and 
 
 
 **Project Structure**
+
 ![image](https://github.com/user-attachments/assets/cb36b219-4b89-4750-8f4a-921d8ff45171)
 
 
