@@ -108,7 +108,9 @@ Use the form to enter personal data. The data will be saved in the database and 
 **styles/style.css:** Custom styles for the form and table.
 
 
+
 **Dependencies**
+
 mysql-connector-python: Used for connecting to and interacting with the MySQL database.
 Install it using: **pip install mysql-connector-python**
 
