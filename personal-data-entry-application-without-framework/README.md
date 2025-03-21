@@ -2,6 +2,7 @@
 
 This is a simple web application for entering and displaying personal data. It is built using Python without any server-side or client-side frameworks. The application uses the http.server module for handling HTTP requests and mysql.connector for database interactions.
 
+
 **Features**
 
 **Data Entry Form:** Users can enter personal data (Name, Surname, Telephone, Address, Age).
@@ -12,12 +13,15 @@ This is a simple web application for entering and displaying personal data. It i
 ![image](https://github.com/user-attachments/assets/f3fe2c47-f0ae-4e78-a414-3b2670b29888)
 
 **Data Storage:** Stores entered data in a MySQL database.
+
 ![image](https://github.com/user-attachments/assets/a6800891-ef32-43e0-afcf-9a60858a958a)
 
 
 **Data Display:** Displays all entered data in a table on the same page.
 
 ![image](https://github.com/user-attachments/assets/07247680-5bdd-4817-b5c3-33ed3cb53b5e)
+
+
 
 **Prerequisites**
 
@@ -28,6 +32,8 @@ Python 3.x (Download from python.org).
 MySQL Server (Download from MySQL).
 
 mysql-connector-python (Install via pip: pip install mysql-connector-python).
+
+
 
 **Setup Instructions**
 
@@ -63,6 +69,7 @@ CREATE TABLE persons (
 
 ![image](https://github.com/user-attachments/assets/b1d53beb-fb75-475b-a27d-981e15a7b780)
 
+
 **3. Update Database Configuration**
 Open server.py and update the database connection details: conn = mysql.connector.connect(
     host="localhost",
@@ -70,6 +77,8 @@ Open server.py and update the database connection details: conn = mysql.connecto
     password="xxxxxxx",  # Replace with your MySQL password
     database="personal_data"
 )
+
+
 
 **Running the Application**
 Start the server: python server.py
@@ -88,6 +97,7 @@ Use the form to enter personal data. The data will be saved in the database and 
 **Project Structure**
 ![image](https://github.com/user-attachments/assets/cb36b219-4b89-4750-8f4a-921d8ff45171)
 
+
 **Key Files**
 
 **index.html:** Contains the HTML form and table for displaying data.
@@ -101,11 +111,13 @@ Use the form to enter personal data. The data will be saved in the database and 
 mysql-connector-python: Used for connecting to and interacting with the MySQL database.
 Install it using: **pip install mysql-connector-python**
 
+
 **Troubleshooting**
 
 **Database Connection Issues:** Ensure MySQL is running and the credentials in server.py are correct.
 
 **Port Conflicts:** If port 8000 is already in use, change the port in server.py: python
+
 
 **Future Improvements**
 
@@ -114,6 +126,7 @@ Add error messages for invalid input.
 Implement user authentication and authorization.
 
 Use a templating engine for dynamic HTML generation.
+
 
 **License**
 
